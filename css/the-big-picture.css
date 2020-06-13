@@ -1,0 +1,105 @@
+/*!
+ * Start Bootstrap - The Big Picture (https://startbootstrap.com/template-overviews/the-big-picture)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/master/LICENSE)
+ */
+body {
+  background: url('../images/background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin-bottom: 5%
+}
+
+/* --------------------------------- */
+/* -------------- Nav -------------- */
+/* --------------------------------- */
+.bg-dark{
+  background-color: transparent !important;
+}
+
+
+/* --------------------------------- */
+/* ------------- Index ------------- */
+/* --------------------------------- */
+
+.profilePic{
+  max-width: 250px;
+  filter: sepia(40%);
+  box-shadow: 5px 5px 5px 5px rgb(46, 46, 46);
+}
+
+/* --------------------------------- */
+/* ------------ Projects ----------- */
+/* --------------------------------- */
+
+.card{
+  max-width: 48%;
+  padding: 1%;
+  margin-top: 2%;
+  background-color: rgb(197, 204, 189);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+   outline: black;
+  background-size: 100%, 100%;
+  content: '>';
+  font-size: 24px;
+  color: rgb(77,53,67);
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 24px;
+  color: rgb(77,53,67);
+}
+
+.link{
+  color: black;
+
+}
+
+.link:hover{
+  color: rgb(77,53,67);
+  text-decoration: none;
+}
+
+/* --------------------------------- */
+/* ------------ Contact ------------ */
+/* --------------------------------- */
+.info{
+  background-color: rgb(197, 204, 189);
+  width: 40%;
+  min-width: 275px;
+  max-width: 350px;
+  margin: auto;
+  padding: 5%;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 10px 10px 5px 0px rgb(112, 68, 42);
+}
+
+.icon{
+  font-size: 60px;
+  color: rgb(77,53,67);
+  padding: 10%;
+}
+.icon:hover{
+  color: rgb(183,101,61);
+  padding: 10%;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  background-color: rgb(77,53,67);
+}
+
+.iconDiv{
+  display: inline;
+  margin: 2%;
+}
