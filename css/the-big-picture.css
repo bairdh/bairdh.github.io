@@ -9,7 +9,7 @@ body {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  margin-bottom: 5%
+  margin-bottom: 5%;
 }
 
 /* --------------------------------- */
@@ -38,7 +38,7 @@ body {
   max-width: 48%;
   padding: 1%;
   margin-top: 2%;
-  background-color: rgb(197, 204, 189);
+  background-color: rgba(197, 204, 189, 0.916);
 }
 
 .carousel-control-prev-icon,
@@ -71,19 +71,20 @@ body {
   text-decoration: none;
 }
 
+
 /* --------------------------------- */
 /* ------------ Contact ------------ */
 /* --------------------------------- */
 .info{
-  background-color: rgb(197, 204, 189);
+  /* background-color: rgb(197, 204, 189); */
   width: 40%;
   min-width: 275px;
   max-width: 350px;
-  margin: auto;
+  margin: 0 auto;
   padding: 5%;
   border-radius: 10px;
   text-align: center;
-  box-shadow: 10px 10px 5px 0px rgb(112, 68, 42);
+  /* box-shadow: 10px 10px 5px 0px rgb(112, 68, 42); */
 }
 
 .icon{
@@ -92,9 +93,8 @@ body {
   padding: 10%;
 }
 .icon:hover{
-  color: rgb(183,101,61);
+  color: rgba(158,122,104,1);
   padding: 10%;
-  /* border: 1px solid black; */
   border-radius: 10px;
   background-color: rgb(77,53,67);
 }
