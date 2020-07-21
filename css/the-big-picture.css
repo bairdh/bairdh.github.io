@@ -19,6 +19,14 @@ body {
   background-color: transparent !important;
 }
 
+.navIcon{
+  font-size: 30px;
+  color: rgba(255,255,255,.5);
+}
+
+.navIcon:hover{
+  color: rgba(255,255,255,.75);
+}
 
 /* --------------------------------- */
 /* ------------- Index ------------- */
@@ -35,7 +43,7 @@ body {
 /* --------------------------------- */
 
 .card{
-  max-width: 48%;
+  min-width: 300px;
   padding: 1%;
   margin-top: 2%;
   background-color: rgba(197, 204, 189, 0.916);
