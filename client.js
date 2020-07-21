@@ -7,7 +7,7 @@ function ready(){
     console.log(`Jquery is working!`);
 
    $(function(){
-       $(".navPlaceholder").load('nav.html');
+       $(".navPlaceholder").load('./html/nav.html');
    });
    
 }
